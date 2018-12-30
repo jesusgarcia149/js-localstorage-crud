@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="bootstrap.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card">
+						<div class="card-header">
+							<h1>Publish a new thought</h1>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">
+							<label for="input-thought-create">
+								<strong>what are you thinking?</strong>
+							</label>
+							</h5>
+							<div class="create-thought" id="create-thought">
+								<p class="card-text">
+									<textarea name="textarea" class="form-control" id="input-thought-create" cols="30" rows="5" placeholder="Enter thought"></textarea>
+									<div id="btn-create" class="btn btn-success btn-block" onclick="create()">Create</div>
+								</p>
+							</div>
+							<div class="update-thought" id="update-thought">
+								<p class="card-text">
+									<textarea name="textarea" class="form-control" id="input-thought-update" cols="30" rows="10" placeholder="Enter thought"></textarea>
+									<div id="btn-update" class="btn btn-success btn-block" onclick="update()">Update</div>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card">
+						<div class="card-header">
+							<h1>List of thought</h1>
+						</div>
+						<div id="thought-list">
+							<div class="card-body">
+								<h5 class="card-title">28/12/2018</h5>
+								<p class="card-text">this is my first thought</p>
+								<div id="btn-edit" class="btn btn-warning" onclick="edit()">edit</div>
+								<div id="btn-delete" class="btn btn-danger" onclick="deleter()">delete</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<footer>
+						<div class="card">
+							<div class="card-header">
+								<h4 class="text-center"><i>Created By Jesús García (jesusnaxcs)</i></h4>
+							</div>
+							<div class="card-body">
+								<p class="text-center">
+									<strong>
+										<a target="blank" href="https://www.facebook.com/profile.php?id=100003378198767">facebook</a>
+									</strong>
+								</p>
+								<p class="text-center">
+									<strong>
+										<a href="#">Email - jesus.g.jg7@gmail.com</a>
+									</strong>
+								</p>
+								<p class="text-center">
+									<strong>
+										<a target="blank" href="https://github.com/jesusnaxcs/">Github</a>
+									</strong>
+								</p>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+
+	</body>
+</html>
